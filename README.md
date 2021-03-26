@@ -1,1 +1,1 @@
-# Rjesenje zadataka za kolegij Web Aplikacije
+# Rjesenja zadataka za kolegij Web Aplikacije - WA-101
