@@ -1,8 +1,20 @@
 import express from 'express';
+import routes from './routes';
 
-const app = express()  // instanciranje aplikacije
-const port = 3000  // port na kojem će web server slušati
 
-app.get('/', (req, res) => res.send('Hello World'))
+const app = express()
+const port = 3000
 
-app.listen(port, () => console.log(`Slušam na portu ${port}!`))
+// Zadatak 1
+app.get('/', routes.home)
+app.get('/datum', routes.datum)
+app.get('/prognoza', routes.prognoza)
+
+// Zadatak 2
+
+// Zadatak 3
+
+// Zadatak 4
+
+app.listen(port, ()=> console.log(`Slusam na portu ${port}!`))
+
